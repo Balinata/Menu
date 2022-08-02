@@ -48,3 +48,8 @@ a {
 .one ul a {
     color: #ffffff;
 }
+
+.one .submenu {
+    display: none;
+    background: #1a21e3;
+}
