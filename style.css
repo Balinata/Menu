@@ -73,3 +73,8 @@ a {
 .one ul li:hover .topmenu {
     display: block;
 }
+
+.one .topmenu {
+    display: none;
+    background: #1a21e3;
+}
