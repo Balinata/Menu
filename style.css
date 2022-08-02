@@ -53,3 +53,7 @@ a {
     display: none;
     background: #1a21e3;
 }
+
+.one ul li:hover .submenu {
+    display: block;
+}
