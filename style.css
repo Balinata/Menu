@@ -1,0 +1,12 @@
+header {
+background: gray;
+}
+
+.menu a {
+color: #fff;
+text-decoration: none;
+}
+
+.menu li {
+list-style-type: none;
+}
