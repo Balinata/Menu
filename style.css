@@ -44,3 +44,7 @@ a {
 .one ul {
     background: #3e3e3e;
 }
+
+.one ul a {
+    color: #ffffff;
+}
