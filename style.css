@@ -19,3 +19,12 @@ nav {
 .menu > li:last-child {
     margin-right: 0;
 }
+
+a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Lora', serif;
+    transition: .5s linear;
+}
