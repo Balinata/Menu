@@ -1,12 +1,12 @@
-header {
-background: gray;
-}
-
-.menu a {
-color: #fff;
-text-decoration: none;
-}
-
-.menu li {
-list-style-type: none;
-}
+nav {
+    width: 660px;
+    margin: 0 auto 30px;
+  }
+  
+  ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
