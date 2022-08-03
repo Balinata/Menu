@@ -1,86 +1,71 @@
-nav {
-    width: 660px;
-    margin: 0 auto 30px;
+.header {
+
 }
 
-  ul {
-    list-style: none; 
-    margin: 0;
+#menu {
     padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    list-style: none;
+    float: left;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    width: 150px;
     text-align: center;
-}
-
-  .menu > li {
-    display: inline-block;
-    margin-right: 20px;
+    background:  #4b4b4a;
     position: relative;
-    padding: 0 15px;
+    padding-top: 12px;
 }
 
-.menu > li:last-child {
-    margin-right: 0;
-}
-
-.menu ul a {
-display: block;
-padding: 5px 10px;
-}
-
-a {
-    display: block;
-    padding: 10px 15px;
-    text-decoration: none;
-    outline: none;
-    font-family: 'Lora', serif;
-    transition: .5s linear;
-}
-
-.submenu {
+#menu li ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    display: none;
     position: absolute;
-    top: 100%;
     left: 0;
-    width: 100%;
-    z-index: 10;
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
+    top: 42px;
 }
 
-.one ul {
-    background: #3e3e3e;
+#menu li ul li {
+    float: none;
+    height: 30px;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: #004891;
+    border: 1px solid rgb(125, 124, 124);
 }
 
-.one ul a {
+#menu li a {
+    display: block;
+    width: 150px;
+    height: 30px;
     color: #ffffff;
+    text-decoration: none;
 }
 
-.one .submenu {
-    display: none;
-    background: #1a21e3;
-}
-
-.one ul li:hover .submenu {
+#menu li:hover ul {
     display: block;
 }
 
-.topmenu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
+#menu li:hover {
+    background: #02a9ca;
 }
 
-.one ul li:hover .topmenu {
-    display: block;
+#menu li ul li ul {
+    left:150px;
+    top: 0;
 }
 
-.one .topmenu {
+#menu li ul li ul li {
     display: none;
-    background: #1a21e3;
+}
+
+#menu li ul li:hover ul li {
+    display: block;
 }
