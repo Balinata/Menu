@@ -37,15 +37,15 @@
     transition: .5s ease-in-out;
 }
 
+.list a {
+    box-sizing: border-box;
+}
+
 #menu li a {
     display: block;
     height: 30px;
     color: #ffffff;
     text-decoration: none;
-}
-
-.list a {
-    box-sizing: border-box;
 }
 
 #menu li:hover ul {
