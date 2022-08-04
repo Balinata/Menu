@@ -20,7 +20,6 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 150px;
     display: none;
     position: absolute;
     left: 0;
@@ -31,6 +30,7 @@
     float: none;
     height: 30px;
     margin: 0;
+
     width: 150px;
     text-align: center;
     background: #004891;
@@ -40,10 +40,13 @@
 
 #menu li a {
     display: block;
-    width: 150px;
     height: 30px;
     color: #ffffff;
     text-decoration: none;
+}
+
+.list a {
+    box-sizing: border-box;
 }
 
 #menu li:hover ul {
